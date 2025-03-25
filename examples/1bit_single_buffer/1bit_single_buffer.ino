@@ -14,7 +14,7 @@ DVIGFX1 display(DVI_RES_640x480p60, false, sparkfun_iot_redboard_rp2350_dvi_cfg)
 // 640x480 mode. SOME BOARDS MIGHT SIMPLY NOT BE COMPATIBLE WITH THIS.
 // May require selecting QSPI div4 clock (Tools menu) to slow down flash
 // accesses, may require further over-volting the CPU to 1.25 or 1.3 V.
-//DVIGFX1 display(DVI_RES_800x480p60, false, adafruit_feather_dvi_cfg);
+//DVIGFX1 display(DVI_RES_800x480p60, false, sparkfun_iot_redboard_rp2350_dvi_cfg);
 
 void setup() { // Runs once on startup
   if (!display.begin()) { // Blink LED if insufficient RAM
